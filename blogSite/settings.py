@@ -25,7 +25,7 @@ SECRET_KEY = '7s+qgg77hcjtzqbtr^b=pli%jct!wb^y8@69624)c+r#c-#!!%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mutlu.pythonanywhere.com']
 
 
 # Application definition
