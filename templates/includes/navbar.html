@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- <title>BlogSite</title> -->
+</head>
+<body>
+  {% block body %}
+<header>
+      <a href={%url 'index' %}><img src="{% static 'image/logo.png'%}" alt="logo" class="logo" /></a>
+    
+      <div class="wrap-content">
+        <nav id="myjquerymenu" class="jquerycssmenu">
+        <ul>
+        <li><a class="" href={%url 'index' %}>Hello</a></li>
+        <li><a href={%url 'about' %}>About</a></li>
+        <li><a href={%url 'portfolio'%}>Portfolio</a>
+          <!-- <ul>
+            <li><a href="portfolio.html">Portfolio Page</a></li>
+          </ul>   -->
+        </li>
+        <li><a href={%url 'blog'%}>Blog</a>
+          <!-- <ul> -->
+          <!-- <li><a href="blog.html">Blog Page</a></li>  -->
+          
+        
+          </li>              
+          <!-- </ul> -->
+        </li>             
+        <li><a href={%url 'contact'%}>Contact</a></li>
+        </ul>
+        </nav><!-- end #myjquerymenu -->
+    
+        <ul class="author">
+            <li class="name"><a href="about.html">Mutlu Bağdat</a></li>
+            <li><a href="about.html"><img src="{% static 'demo/author.jpg'%}" alt="author img" /></a></li>
+        </ul><!-- end .author -->  
+    
+      </div><!-- end .wrap-content -->           
+      <div class="clear"></div>  
+</header> 
+  {% endblock body %}
+
+</body>
+</html>

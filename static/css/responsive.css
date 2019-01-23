@@ -1,0 +1,1254 @@
+/* =====================================================================================  
+    The source of demo preview has been stripped and compressed for security reasons.
+====================================================================================== */
+@media only screen and (max-width:1024px) {
+    header {
+        width: 980px
+    }
+
+    header .wrap-content {
+        width: 815px
+    }
+
+    .container {
+        width: 980px;
+        margin: 0 auto -400px auto
+    }
+
+    .wrap-content {
+        width: 815px;
+        margin-bottom: 400px
+    }
+
+    .author li.name {
+        display: none
+    }
+
+    .home-slider {
+        width: 815px;
+        height: 310px
+    }
+
+    .hello-slider {
+        width: 650px;
+        height: 230px;
+        margin: -230px auto 0 auto
+    }
+
+    .hello-slider h2 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 34px
+    }
+
+    .hello-slider a {
+        font-size: 26px;
+        padding: 20px 15px
+    }
+
+    ul.portfolio {
+        width: 865px
+    }
+
+    .portfolio li {
+        width: 236px
+    }
+
+    .portfolio li figure img {
+        width: 100%
+    }
+
+    .portfolio figure {
+        width: 201px
+    }
+
+    .box-style figcaption h3 {
+        font-size: 17px
+    }
+
+    .about-box {
+        width: 745px;
+        margin: 0 35px 35px 35px;
+        float: left
+    }
+
+    .about-box .content {
+        width: 701px
+    }
+
+    .history-box {
+        width: 745px;
+        margin: 0 35px 0 35px;
+        float: left
+    }
+
+    .service-box {
+        width: 745px;
+        height: auto;
+        margin: 35px 0 35px 35px;
+        float: left
+    }
+
+    .service-box .content {
+        width: 701px;
+        padding: 22px
+    }
+
+    ul.icons-services {
+        width: 701px
+    }
+
+    .full-width {
+        width: 745px
+    }
+
+    .full-width .content {
+        width: 701px
+    }
+
+    .page-content {
+        width: 745px
+    }
+
+    .page-content .description {
+        width: 701px
+    }
+
+    .page-content .page-title {
+        width: 701px;
+        height: auto;
+        padding: 20px 22px 0 22px
+    }
+
+    .blog-content {
+        width: 745px
+    }
+
+    .blog-content .description {
+        width: 701px
+    }
+
+    ul.blog-posts {
+        width: 745px
+    }
+
+    .blog-posts li h2 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .blog-posts li {
+        width: 372px;
+        height: 460px
+    }
+
+    .blog-posts li div.title {
+        width: 372px
+    }
+
+    .thumbnail-box {
+        width: 372px;
+        height: 460px
+    }
+
+    .thumbnail-box div.title {
+        width: 372px
+    }
+
+    .thumbnail-box h1 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .category {
+        width: 705px
+    }
+
+    .pagination {
+        width: 745px
+    }
+
+    .sidebar1 {
+        width: 445px;
+        margin: 0 0 35px 35px
+    }
+
+    .sidebar2 {
+        width: 260px;
+        margin: 0 37px 0 0
+    }
+
+    .comments {
+        width: 745px
+    }
+
+    .gmap3 {
+        width: 815px;
+        height: 309px
+    }
+
+    footer {
+        width: 980px
+    }
+
+    .footer-content {
+        width: 815px
+    }
+
+    footer .widget1 {
+        width: 745px;
+        height: auto;
+        float: left;
+        margin: 0 0 50px 35px
+    }
+
+    footer .widget2 {
+        width: 270px;
+        height: auto;
+        float: left;
+        margin: 0 46px 0 35px
+    }
+
+    #newsletter-form {
+        width: 740px
+    }
+
+    .newsletter {
+        width: 555px
+    }
+}
+
+@media only screen and (min-width:760px) and (max-width:1000px) {
+    header {
+        width: 750px
+    }
+
+    header .wrap-content {
+        width: 585px
+    }
+
+    .container {
+        width: 750px;
+        margin: 0 auto -400px auto
+    }
+
+    .wrap-content {
+        width: 585px;
+        margin-bottom: 400px
+    }
+
+    .author li.name {
+        display: block
+    }
+
+    .home-slider {
+        width: 585px;
+        height: 222px
+    }
+
+    .hello-slider {
+        width: 500px;
+        height: 180px;
+        margin: -180px auto 0 auto
+    }
+
+    .hello-slider h2 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px
+    }
+
+    .hello-slider a {
+        font-size: 16px;
+        padding: 10px 15px;
+        margin: 0 auto 20px auto !important
+    }
+
+    ul.portfolio {
+        width: 555px
+    }
+
+    .portfolio li {
+        width: 249px
+    }
+
+    .portfolio li figure img {
+        width: 100%
+    }
+
+    .portfolio figure {
+        width: 214px
+    }
+
+    .box-style figcaption h3 {
+        font-size: 17px
+    }
+
+    .project-container {
+        width: 700px;
+        height: auto;
+        margin: 35px auto 30px auto
+    }
+
+    .project-content {
+        width: 700px;
+        height: auto
+    }
+
+    .project-content iframe {
+        width: 700px;
+        height: 394px
+    }
+
+    .project-slider {
+        width: 700px;
+        height: 700px
+    }
+
+    .about-box {
+        width: 515px;
+        margin: 0 35px 35px 35px;
+        float: left
+    }
+
+    .about-box .content {
+        width: 471px
+    }
+
+    .history-box {
+        width: 515px;
+        margin: 0 35px 0 35px;
+        float: left
+    }
+
+    .service-box {
+        width: 515px;
+        height: auto;
+        margin: 35px 0 35px 35px;
+        float: left
+    }
+
+    .service-box .content {
+        width: 471px;
+        padding: 22px
+    }
+
+    .hi-icon {
+        width: 74px;
+        height: 74px
+    }
+
+    .full-width {
+        width: 518px
+    }
+
+    .full-width .content {
+        width: 474px
+    }
+
+    .page-content {
+        width: 518px
+    }
+
+    .page-content .description {
+        width: 474px
+    }
+
+    .page-content .page-title {
+        width: 474px;
+        height: auto;
+        padding: 20px 22px 0 22px
+    }
+
+    .blog-content {
+        width: 518px
+    }
+
+    .blog-content .description {
+        width: 474px
+    }
+
+    ul.blog-posts {
+        width: 518px
+    }
+
+    .blog-posts li h2 {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    .blog-posts li {
+        width: 259px;
+        height: 320px
+    }
+
+    .blog-posts li div.title {
+        width: 259px
+    }
+
+    .thumbnail-box {
+        width: 259px;
+        height: 320px
+    }
+
+    .thumbnail-box div.title {
+        width: 259px
+    }
+
+    .thumbnail-box h1 {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    .category {
+        width: 478px
+    }
+
+    .pagination {
+        width: 518px
+    }
+
+    .sidebar1 {
+        width: 220px;
+        margin: 0 0 35px 35px
+    }
+
+    .sidebar2 {
+        width: 260px;
+        margin: 0 37px 0 0
+    }
+
+    .jquerycssmenu {
+        display: none
+    }
+
+    .mobileMenu {
+        display: inline-block;
+        float: left;
+        margin: 25px 0 0 35px;
+        width: 220px;
+        height: 30px;
+        border: 0;
+        background: #0fbe7c;
+        color: #FFF;
+        font-weight: 600;
+        font-size: 13px;
+        padding: 7px 9px;
+        z-index: 999;
+        cursor: pointer
+    }
+
+    .mobileMenu option {
+        padding: 2px 9px
+    }
+
+    .comments {
+        width: 518px
+    }
+
+    .gmap3 {
+        width: 585px;
+        height: 222px
+    }
+
+    footer {
+        width: 750px
+    }
+
+    .footer-content {
+        width: 585px
+    }
+
+    footer .widget1 {
+        width: 518px;
+        height: auto;
+        float: left;
+        margin: 0 0 50px 35px
+    }
+
+    footer .widget2 {
+        width: 250px;
+        height: auto;
+        float: left;
+        margin: 0 35px 0 35px
+    }
+
+    footer .widget3 {
+        width: 200px;
+        height: auto;
+        float: left;
+        margin: 0;
+        padding: 0 0 20px 35px
+    }
+
+    #newsletter-form {
+        width: 518px
+    }
+
+    .newsletter {
+        width: 330px
+    }
+
+    .one_third,
+    .one_third_last {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0
+    }
+
+    .one_third_last {
+        margin-right: 0
+    }
+
+    .one_fourth,
+    .one_fourth_last {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0
+    }
+
+    .one_fourth_last {
+        margin-right: 0
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:760px) {
+    header {
+        width: 450px
+    }
+
+    header .wrap-content {
+        width: 285px;
+        position: absolute
+    }
+
+    .container {
+        width: 450px;
+        margin: 0 auto
+    }
+
+    .wrap-content {
+        width: 450px;
+        margin-bottom: 0
+    }
+
+    .content-left {
+        display: none
+    }
+
+    ul.author {
+        display: none
+    }
+
+    .home-slider {
+        width: 450px;
+        height: 171px
+    }
+
+    .hello-slider {
+        width: 370px;
+        height: 130px;
+        margin: -130px auto 0 auto
+    }
+
+    .hello-slider h2 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 26px
+    }
+
+    .hello-slider a {
+        font-size: 12px;
+        padding: 3px 15px;
+        margin: 0 auto 10px auto !important
+    }
+
+    ul.portfolio {
+        width: 452px;
+        margin-left: 0
+    }
+
+    .portfolio li {
+        width: 226px;
+        margin: 0 0 20px 0
+    }
+
+    .portfolio li figure img {
+        width: 100%
+    }
+
+    .portfolio figure {
+        width: 191px
+    }
+
+    .box-style figcaption h3 {
+        font-size: 16px
+    }
+
+    .header-project-content {
+        position: relative
+    }
+
+    .project-container {
+        width: 450px;
+        height: auto;
+        margin: 100px auto 10px auto
+    }
+
+    .project-content {
+        width: 450px;
+        height: auto
+    }
+
+    .project-content iframe {
+        width: 450px;
+        height: 253px
+    }
+
+    .project-slider {
+        width: 450px;
+        height: 450px
+    }
+
+    h1.project-title {
+        text-align: center;
+        padding: 26px 0 0 0
+    }
+
+    ul.project-arrows {
+        width: 150px;
+        height: 35px;
+        margin: 60px 0 0 160px;
+        float: left
+    }
+
+    .bx-wrapper .bx-next {
+        margin: -50px 0 0 55px
+    }
+
+    .bx-wrapper .bx-prev {
+        margin: -50px 0 0 15px
+    }
+
+    .about-box {
+        width: 450px;
+        margin: 0 0 35px 0;
+        float: left
+    }
+
+    .about-box .content {
+        width: 406px
+    }
+
+    .history-box {
+        width: 450px;
+        margin: 0;
+        float: left
+    }
+
+    .service-box {
+        width: 450px;
+        height: auto;
+        margin: 35px 0 35px 0;
+        float: left
+    }
+
+    .service-box .content {
+        width: 406px;
+        padding: 22px
+    }
+
+    ul.icons-services {
+        width: 470px
+    }
+
+    .hi-icon {
+        width: 62px;
+        height: 62px;
+        font-size: 30px;
+        line-height: 62px
+    }
+
+    .full-width {
+        width: 450px;
+        margin-left: 0
+    }
+
+    .full-width .content {
+        width: 406px
+    }
+
+    .page-content {
+        width: 450px;
+        margin-left: 0
+    }
+
+    .page-content .description {
+        width: 406px
+    }
+
+    .page-content .page-title {
+        width: 406px;
+        height: auto;
+        padding: 20px 22px 0 22px
+    }
+
+    .blog-content {
+        width: 450px;
+        margin-left: 0
+    }
+
+    .blog-content .description {
+        width: 406px
+    }
+
+    ul.blog-posts {
+        width: 450px;
+        margin-left: 0
+    }
+
+    .blog-posts li h2 {
+        font-size: 17px;
+        line-height: 24px
+    }
+
+    .blog-posts li {
+        width: 225px;
+        height: 278px
+    }
+
+    .blog-posts li div.title {
+        width: 225px
+    }
+
+    .thumbnail-box {
+        width: 225px;
+        height: 278px
+    }
+
+    .thumbnail-box div.title {
+        width: 225px
+    }
+
+    .thumbnail-box h1 {
+        font-size: 17px;
+        line-height: 24px
+    }
+
+    .category {
+        width: 410px;
+        margin-left: 0
+    }
+
+    .pagination {
+        width: 450px;
+        margin-left: 0
+    }
+
+    .sidebar1 {
+        width: 180px;
+        margin: 0 0 35px 0
+    }
+
+    .sidebar2 {
+        width: 260px;
+        margin: 0
+    }
+
+    .jquerycssmenu {
+        display: none
+    }
+
+    .mobileMenu {
+        display: inline-block;
+        float: left;
+        margin: 25px 0 0 35px;
+        width: 220px;
+        height: 30px;
+        border: 0;
+        background: #0fbe7c;
+        color: #FFF;
+        font-weight: 600;
+        font-size: 13px;
+        padding: 7px 9px;
+        z-index: 999;
+        cursor: pointer
+    }
+
+    .mobileMenu option {
+        padding: 2px 9px
+    }
+
+    .comments {
+        width: 450px
+    }
+
+    .gmap3 {
+        width: 450px;
+        height: 171px
+    }
+
+    footer {
+        width: 450px
+    }
+
+    .footer-content {
+        width: 450px;
+        margin-left: 0
+    }
+
+    footer .widget1 {
+        width: 406px;
+        height: auto;
+        float: left;
+        margin: 0 22px 50px 22px
+    }
+
+    footer .widget2 {
+        width: 406px;
+        height: auto;
+        float: left;
+        margin: 0 22px 50px 22px
+    }
+
+    footer .widget3 {
+        width: 406px;
+        height: auto;
+        float: left;
+        margin: 0 22px 30px 22px;
+        padding: 0;
+        border: 0
+    }
+
+    #newsletter-form {
+        width: 406px
+    }
+
+    .newsletter {
+        width: 220px
+    }
+
+    .one_third,
+    .one_third_last {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0
+    }
+
+    .one_third_last {
+        margin-right: 0
+    }
+
+    .one_fourth,
+    .one_fourth_last {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0
+    }
+
+    .one_fourth_last {
+        margin-right: 0
+    }
+}
+
+@media only screen and (max-width:479px) {
+    header {
+        width: 300px
+    }
+
+    header .wrap-content {
+        width: 135px;
+        position: absolute
+    }
+
+    .container {
+        width: 300px;
+        margin: 0 auto
+    }
+
+    .wrap-content {
+        width: 300px;
+        margin-bottom: 0
+    }
+
+    .content-left {
+        display: none
+    }
+
+    ul.author {
+        display: none
+    }
+
+    .home-slider {
+        display: none
+    }
+
+    ul.portfolio {
+        width: 300px;
+        margin-left: 0
+    }
+
+    .portfolio li {
+        width: 299px;
+        margin: 0 0 20px 0
+    }
+
+    .portfolio li figure img {
+        width: 100%
+    }
+
+    .portfolio figure {
+        width: 264px
+    }
+
+    .box-style figcaption h3 {
+        font-size: 18px
+    }
+
+    .header-project-content {
+        position: relative
+    }
+
+    .project-container {
+        width: 300px;
+        height: auto;
+        margin: 100px auto 4px auto
+    }
+
+    .project-content {
+        width: 300px;
+        height: auto
+    }
+
+    .project-content iframe {
+        width: 300px;
+        height: 169px
+    }
+
+    .project-slider {
+        width: 300px;
+        height: 300px
+    }
+
+    h1.project-title {
+        font-size: 20px;
+        text-align: center;
+        padding: 26px 0 0 0
+    }
+
+    ul.project-arrows {
+        width: 150px;
+        height: 35px;
+        margin: 60px 0 0 80px;
+        float: left
+    }
+
+    .bx-wrapper .bx-next {
+        margin: -50px 0 0 55px
+    }
+
+    .bx-wrapper .bx-prev {
+        margin: -50px 0 0 15px
+    }
+
+    .about-box {
+        width: 300px;
+        margin: 0 35px 35px 0;
+        float: left
+    }
+
+    .about-box .content {
+        width: 256px
+    }
+
+    .history-box {
+        width: 300px;
+        margin: 0 35px 0 0;
+        float: left
+    }
+
+    .service-box {
+        width: 300px;
+        height: auto;
+        margin: 35px 0 35px 0;
+        float: left
+    }
+
+    .service-box .content {
+        width: 256px;
+        padding: 22px
+    }
+
+    ul.icons-services {
+        width: 278px;
+        margin: 20px 0 30px -2px !important
+    }
+
+    ul.icons-services li {
+        float: left;
+        margin: 10px 20px 30px 0
+    }
+
+    .hi-icon {
+        width: 65px;
+        height: 65px;
+        font-size: 30px;
+        line-height: 62px
+    }
+
+    .full-width {
+        width: 300px;
+        margin-left: 0
+    }
+
+    .full-width .content {
+        width: 256px
+    }
+
+    .page-content {
+        width: 300px;
+        margin-left: 0
+    }
+
+    .page-content .description {
+        width: 256px
+    }
+
+    .page-content .page-title {
+        width: 256px;
+        height: auto;
+        padding: 20px 22px 0 22px
+    }
+
+    .blog-content {
+        width: 300px;
+        margin-left: 0
+    }
+
+    .blog-content .description {
+        width: 256px
+    }
+
+    ul.blog-posts {
+        width: 300px;
+        margin-left: 0
+    }
+
+    .blog-posts li h2 {
+        font-size: 20px;
+        line-height: 26px
+    }
+
+    .blog-posts li {
+        width: 300px;
+        height: 371px
+    }
+
+    .blog-posts li div.title {
+        width: 300px
+    }
+
+    .thumbnail-box {
+        width: 300px;
+        height: 371px
+    }
+
+    .thumbnail-box div.title {
+        width: 275px !important
+    }
+
+    .thumbnail-box h1 {
+        font-size: 20px;
+        line-height: 26px
+    }
+
+    .category {
+        width: 260px;
+        margin-left: 0
+    }
+
+    .pagination {
+        width: 300px;
+        margin-left: 0
+    }
+
+    .sidebar1 {
+        width: 300px;
+        margin: 0 0 35px 0
+    }
+
+    .sidebar2 {
+        width: 260px;
+        margin: 0 0 20px 20px;
+        float: left
+    }
+
+    .entry img {
+        width: auto
+    }
+
+    img.alignleft {
+        float: none;
+        width: auto;
+        margin: 20px 0 10px 0
+    }
+
+    img.alignright {
+        float: none;
+        width: auto;
+        margin: 20px 0 10px 0
+    }
+
+    blockquote {
+        font-size: 16px;
+        font-weight: normal;
+        margin: 40px 0;
+        opacity: .5;
+        background: url(../images/quotes.png) no-repeat top left;
+        padding: 0 0 0 20px
+    }
+
+    blockquote p {
+        padding-right: 15px !important;
+        background: url(../images/quotes.png) no-repeat bottom right
+    }
+
+    .jquerycssmenu {
+        display: none
+    }
+
+    .mobileMenu {
+        display: inline-block;
+        float: left;
+        margin: 25px 0 0 10px;
+        width: 115px;
+        height: 30px;
+        border: 0;
+        background: #0fbe7c;
+        color: #FFF;
+        font-weight: 600;
+        font-size: 13px;
+        padding: 7px 9px;
+        z-index: 999;
+        cursor: pointer
+    }
+
+    .mobileMenu option {
+        padding: 2px 9px
+    }
+
+    .comments {
+        width: 300px
+    }
+
+    .one_half_c,
+    .one_half_last_c {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+        clear: both
+    }
+
+    .one_half_last_c {
+        margin-right: 0
+    }
+
+    .one_full_c {
+        float: left;
+        width: 100%
+    }
+
+    .gmap3 {
+        width: 300px;
+        height: 114px
+    }
+
+    footer {
+        width: 300px
+    }
+
+    .footer-content {
+        width: 300px;
+        margin-left: 0
+    }
+
+    footer .widget1 {
+        width: 256px;
+        height: auto;
+        float: left;
+        margin: 0 22px 50px 22px
+    }
+
+    footer .widget2 {
+        width: 256px;
+        height: auto;
+        float: left;
+        margin: 0 22px 50px 22px
+    }
+
+    footer .widget3 {
+        width: 256px;
+        height: auto;
+        float: left;
+        margin: 0 22px 30px 22px;
+        padding: 0;
+        border: 0
+    }
+
+    #newsletter-form {
+        width: 256px
+    }
+
+    .newsletter {
+        width: 110px;
+        padding: 0 10px
+    }
+
+    .one_half,
+    .one_half_last {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0
+    }
+
+    .one_half_last {
+        margin-right: 0
+    }
+
+    .one_third,
+    .one_third_last {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0
+    }
+
+    .one_third_last {
+        margin-right: 0
+    }
+
+    .one_fourth,
+    .one_fourth_last {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0
+    }
+
+    .one_fourth_last {
+        margin-right: 0
+    }
+
+    #tabs li a {
+        padding: 8px 3px
+    }
+
+    #tabs li a:hover {
+        padding: 8px 3px
+    }
+}

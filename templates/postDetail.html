@@ -1,0 +1,196 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block body %}
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<!-- Meta Tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<!-- Title -->
+	<title>OoK</title>    
+
+  <!-- Mobile Device Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Stylesheets -->
+
+
+  <!-- SCRIPTS + JQUERY --> <!-- The HTML5 Shim for older browsers (mostly older versions of IE). -->
+	<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+  <!-- Java script (The rest of js files are placed in the footer) -->
+
+
+</head>
+<body>
+
+
+<!-- Begin Header -->
+
+<!-- end #header -->
+
+
+<section class="container">
+
+    <div class="content-left">
+              <ul class="menu-left">
+                <li><a href="#"><i class="icon-reorder"></i> All Articles</a></li>
+                <li class="current"><a href="#"><i class="icon-heart"></i> Fitness</a></li>
+                <li class="current"><a href="#"><i class="icon-headphones"></i> Workout</a></li>
+                <li><a href="#"><i class="icon-food"></i> Healthy</a></li>
+                <li><a href="#"><i class="icon-facetime-video"></i> Videos</a></li>
+                <li><a href="#"><i class="icon-map-marker"></i> Travel</a></li>
+                <li class="current"><a href="#"><i class="icon-trophy"></i> Sports</a></li>
+              </ul><div class="clear"></div><!-- end filter -->  
+
+              <ul class="menu-pages">
+                <li><a href="portfolio.html"><i class="icon-chevron-up"></i> Portfolio</a></li>
+                <li><a href="contact.html"><i class="icon-envelope-alt"></i> Contact</a></li>
+              </ul><div class="clear"></div><!-- end filter --> 
+    </div><!-- end .content-left -->
+
+
+
+
+    <!-- Begin Content -->
+    <div class="wrap-content">
+
+      <div class="blog-content">
+          <div class="description entry">
+
+                <div class="thumbnail-box">
+                    <img src="{% static 'demo/img-left.jpg'%}" alt="img" />
+                    <div class="title"><h1>Young woman doing workout with weights studio shot</h1></div>
+                </div><!-- end .thumbnail-box -->    
+                        <p> {{article.content | safe}} </p>
+                       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec leo iaculis quam bibendum blandit eu at sem. Vestibulum ante <strong>ipsum primis strong</strong></p> 
+                       <p>In faucibus orci luctus et ultrices posuere cubilia Curae</p>
+                       <p>Morbi consequat ultrices est, nec commodo arcu elementum a. Phasellus adipiscing suscipit magna. Donec eget neque eu eros sollicitudin fringilla id non massa.</p>  -->
+
+
+                            <h3>Left and Right Images</h3>
+                            <img class="alignleft" src="{% static 'demo/img-left.jpg'%}" alt="image left" />
+                            <p>Sed eleifend, lectus at pulvinar laoreet, augue nunc ullamcorper dolor, sed accumsan est arcu sed risus. Quisque eget nibh sem. In sit amet sem in lacus tempus congue eget sit amet felis.Praesent ut enim nunc. Mauris at magna nisl, non adipiscing urna. Pellentesque metus massa, tristique vitae egestas in, vehicula eu leo. Donec sed ornare dui. Vestibulum id turpis sem. Suspendisse neque orci, mattis non cursus eu, pellentesque ut dolor. Sed eleifend, risus eget ultrices gravida nunc arcu <a href="#">with a nice link</a>. </p>
+
+                            <br />
+
+                            <img class="alignright" src="{% static 'demo/img-right.jpg'%}" alt="image right" />
+                            <p>Sed eleifend, lectus at pulvinar laoreet, augue nunc ullamcorper dolor, sed accumsan est arcu sed risus.
+                            Quisque eget nibh sem. In sit amet sem in lacus tempus congue eget sit amet felis. Praesent ut enim nunc. <strong>Mauris at magna nisl</strong> non adipiscing urna. Pellentesque metus massa, tristique vitae egestas in, vehicula eu leo. Donec sed ornare dui. Vestibulum id turpis sem. Suspendisse neque orci, mattis non cursus eu, pellentesque ut dolor. Sed eleifend, risus eget ultrices gravida, nunc arcu interdum tortor praesent ut enim nunc. </p>
+
+
+                        <h3>Envision the fact</h3>
+                        <p>Nullam facilisis, nunc vitae elementum dapibus, leo nulla aliquet lectus, sit amet semper ante neque eu lectus. Fusce nec leo magna. Maecenas a dolor vel lorem vestibulum pulvinar at at felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+
+                        <blockquote><p>Envision the fact that you can do something, as long as you really believe! Ut mi nisl, consectetur vitae rhoncus eu, feugiat sed velit. Sed nisi nisl, bibendum quis rutrum vel, convallis quis urna. Vivamus venenatis accumsan leo nec gravida.</p></blockquote>
+
+                        <p>Phasellus mattis ipsum eget neque molestie nec interdum erat commodo. Nullam fermentum, nisi a eleifend gravida, lorem metus vulputate massa, in ornare dolor dolor porttitor lorem.
+                        Vivamus a leo eu massa tempus auctor eget ut tortor. Sed eu tellus justo. Aliquam porta dignissim tincidunt. Nullam accumsan luctus sem eu ullamcorper. Sed elementum tristique tellus, that you can do something. </p>
+
+                            <ul class="minus-gold-list">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Envision the fact that you can do something, as long as you really believe!</li>
+                                <li>Nullam facilisis, nunc vitae elementum dapibus, leo nulla aliquet.</li>
+                            </ul> 
+
+                            <p>Vivamus a leo eu massa tempus auctor eget ut tortor. Sed eu tellus justo. Aliquam porta dignissim tincidunt. Nullam accumsan luctus sem eu ullamcorper. Sed elementum tristique tellus, that you can do something. </p>
+
+          </div><!-- end .description .entry -->
+
+          <div class="comments">
+              <h3 class="title"><strong>Love me</strong> with a Comment</h3>
+              <form id="commentform" method="post" action="#">
+                  <fieldset id="commentform">                                      
+
+                         <div class="one_half_c">
+                             <label for="contactName">Name:<span>*</span></label>
+                             <input type="text" name="contactName" id="contactName" />
+                         </div>
+                                                     
+                         <div class="one_half_last_c">
+                             <label for="emaill">Email:<span>*</span></label>
+                             <input type="text" name="emaill" id="emaill" />
+                         </div>
+
+                         <div class="one_full_c">
+                             <label for="comments">Message:<span>*</span> </label>
+                             <textarea name="comments" id="contactmessage" rows="" cols=""></textarea>
+                         </div>
+
+                         <input type="submit" name="submit" class="sendemail" value="Submit Comment"  /> <span>*</span>All Fields are mandatory!
+                         <input type="hidden" name="submitted" id="submitted" value="true" /> 
+                  </fieldset>
+              </form>
+          </div>
+          <!-- end .comments -->  
+      </div>
+      <!-- end .blog-content -->    
+
+
+      <aside class="sidebar1">
+          <div class="widget">
+            <h3 class="title"><strong>Featured</strong> articles</h3>
+            <ul class="featured-articles">
+               <li><a href="#"><h3>Smiling Female Doing Stretches on the Beach</h3></a></li>
+               <li><a href="#"><h3>Woman Resting After Summer Workout</h3></a></li>
+               <li><a href="#"><h3>Tired Female Runner Sitting on the Stairs Resting</h3></a></li>
+               <li><a href="#"><h3>Woman Smiling While Doing Push Up</h3></a></li>
+               <li><a href="#"><h3>Attractive Woman at the Beach Having Fun</h3></a></li>
+               <li><a href="#"><h3>Happy Fitness Woman with Bottled Water at the Beach</h3></a></li>
+               <li><a href="#"><h3>Smiling Senior Man at Health Club</h3></a></li>
+            </ul><div class="clear"></div>  
+          </div> 
+
+          <div class="widget">
+            <h3 class="title"><strong>Popular</strong> articles</h3>
+            <ul class="featured-articles">
+               <li><a href="#"><h3>Attractive Woman at the Beach Having Fun</h3></a></li>
+               <li><a href="#"><h3>Happy Fitness Woman with Bottled Water at the Beach</h3></a></li>
+               <li><a href="#"><h3>Smiling Senior Man at Health Club</h3></a></li>
+            </ul>  
+          </div>            
+      </aside>  
+
+
+
+      <aside class="sidebar2">
+          <div class="widget">
+            <ul class="adv">
+              <li><a href="#"><img src="http://placehold.it/125x125" alt="banner" /></a></li>
+              <li><a href="#"><img src="http://placehold.it/125x125" alt="banner" /></a></li>
+              <li><a href="#"><img src="http://placehold.it/125x125" alt="banner" /></a></li>
+              <li><a href="#"><img src="http://placehold.it/125x125" alt="banner" /></a></li>
+              <li><a href="#"><img src="http://placehold.it/125x125" alt="banner" /></a></li>
+              <li><a href="#"><img src="http://placehold.it/125x125" alt="banner" /></a></li>
+            </ul>
+            <div class="clear"></div>  
+          </div> 
+
+          <div class="widget">
+            <h3 class="title"><strong>Accordion</strong> widget</h3>
+                <div class='accordionButton'> About me </div>
+                <div class='accordionContent'> <strong>My success</strong> consectetur adipiscing elit. Integer vehicula sem eget lacus porta interdum. Maecenas tincidunt faucibus felis eget malesuada.</div> 
+
+                <div class='accordionButton'> My Team</div>
+                <div class='accordionContent'> <strong>Meet me</strong> consectetur adipiscing elit. Integer vehicula sem eget lacus porta interdum. Maecenas tincidunt faucibus felis eget malesuada.</div> 
+
+                <div class='accordionButton'> Contact me </div>
+                <div class='accordionContent'><strong>Say Hi</strong> consectetur adipiscing elit. Integer vehicula sem eget lacus porta interdum. Maecenas tincidunt faucibus felis eget malesuada.</div><div class="clear"></div>
+          </div> 
+      </aside><!-- end .sidebar2 -->
+
+
+    </div><!-- end .wrap-content -->
+    <div class="clear"></div>
+</section><!-- end .container -->
+
+<!-- Begin Footer -->
+
+<!-- end #footer -->
+
+<!-- java script -->
+</body>
+</html>
+{% endblock body %}

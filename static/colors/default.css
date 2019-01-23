@@ -1,0 +1,575 @@
+/* =====================================================================================  
+    The source of demo preview has been stripped and compressed for security reasons.
+====================================================================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #94979c
+}
+
+code,
+pre {
+    background: #0033ff;
+    color: #FFF;
+    border: 1px solid #ddd
+}
+
+a:link,
+a:visited {
+    color: #2b2b2b;
+    text-decoration: none
+}
+
+a:hover {
+    color: #09c
+}
+
+::-moz-selection {
+    background: #0033ff;
+    color: #FFF;
+    text-shadow: none
+}
+
+::selection {
+    background: #0033ff;
+    color: #FFF;
+    text-shadow: none
+}
+
+html body {
+    background: #f6f5f2;
+    color: #888
+}
+
+header {
+    background: #FFF
+}
+
+.container {
+    background: #f1f1f1 !important
+}
+
+.content-left {
+    background: #00CED1
+}
+
+.author li a {
+    color: #94979c;
+    border: 2px solid #FFF
+}
+
+.author li a:hover {
+    color: #0033ff
+}
+
+.hello-slider h2 {
+    color: #FFF
+}
+
+.hello-slider a {
+    color: #FFF !important;
+    border: 2px solid #FFF
+}
+
+.portfolio li .options a {
+    background: #e6e6e6;
+    color: #94979c
+}
+
+.portfolio li:hover .options a {
+    color: #0033ff
+}
+
+.portfolio li .options a:hover {
+    background: #0033ff;
+    color: #FFF
+}
+
+.portfolio figcaption {
+    background: #0033ff;
+    color: #ed4e6e
+}
+
+.portfolio figcaption h3 {
+    color: #fff
+}
+
+.portfolio figcaption span {
+    color: #f1f1f1
+}
+
+.portfolio figcaption a {
+    background: #d63f72;
+    color: #fff
+}
+
+.portfolio figcaption a:hover {
+    background: #222
+}
+
+ul.filter li a {
+    color: #f1f1f1
+}
+
+ul.filter li a:hover {
+    color: #FFF !important
+}
+
+ul.filter .current a,
+ul.filter .current a:visited {
+    color: #FFF !important
+}
+
+.bx-wrapper .bx-next {
+    background: #0033ff url(../image/caousel-next.png) no-repeat 0 0;
+    -moz-box-shadow: 0 0 1px #888;
+    -webkit-box-shadow: 0 0 1px #888;
+    box-shadow: 0 0 1px #888
+}
+
+.bx-wrapper .bx-prev {
+    background: #0033ff url(../image/caousel-prev.png) no-repeat -2px 0;
+    -moz-box-shadow: 0 0 1px #888;
+    -webkit-box-shadow: 0 0 1px #888;
+    box-shadow: 0 0 1px #888
+}
+
+.bx-wrapper .bx-next:hover {
+    background: #0033ff url(../image/caousel-next.png) no-repeat 0 0
+}
+
+.bx-wrapper .bx-prev:hover {
+    background: #0033ff url(../image/caousel-prev.png) no-repeat -2px 0
+}
+
+header.header-project {
+    background: #111
+}
+
+.header-project-content {
+    background: #111
+}
+
+body.projectbg {
+    background: #000
+}
+
+h1.project-title {
+    color: #FFF
+}
+
+.project-arrows li a {
+    background: #e6e6e6;
+    color: #94979c
+}
+
+.project-arrows li a:hover {
+    background: #0033ff;
+    color: #FFF
+}
+
+.project-arrows li a.current {
+    background: #0033ff;
+    color: #FFF
+}
+
+.project-content {
+    background: #FFF
+}
+
+.project-job h2 {
+    color: #0033ff
+}
+
+.about-box {
+    background: #FFF;
+    border-top: 5px solid #0033ff
+}
+
+.about-box h3.title {
+    color: #94979c;
+    border-bottom: 5px solid #d5d6d8
+}
+
+.about-box h4.title {
+    background: #0033ff;
+    color: #FFF
+}
+
+.service-box {
+    background: #FFF;
+    border-top: 5px solid #0033ff
+}
+
+.service-box h3.title {
+    color: #94979c;
+    border-bottom: 5px solid #d5d6d8
+}
+
+.hi-icon {
+    color: #fff !important
+}
+
+.hi-icon-effect-3 .hi-icon {
+    box-shadow: 0 0 0 10px #fff
+}
+
+.hi-icon-effect-3 .hi-icon:after {
+    background: #0033ff
+}
+
+.hi-icon-effect-3a .hi-icon {
+    color: #f06060
+}
+
+.no-touch .hi-icon-effect-3a .hi-icon:hover {
+    background: #0033ff
+}
+
+ul.menu-left li a {
+    color: #f1f1f1
+}
+
+ul.menu-left li a:hover {
+    color: #FFF !important
+}
+
+ul.menu-pages {
+    background: #00CED1
+}
+
+ul.menu-pages li a {
+    color: #f1f1f1
+}
+
+ul.menu-pages li a:hover {
+    color: #FFF !important
+}
+
+.full-width {
+    background: #FFF;
+    border-top: 5px solid #0033ff
+}
+
+.full-width h1.title {
+    color: #94979c;
+    border-bottom: 5px solid #d5d6d8
+}
+
+.page-content {
+    background: #FFF;
+    border-top: 5px solid #0033ff
+}
+
+.page-content h1.title {
+    color: #94979c;
+    border-bottom: 5px solid #d5d6d8
+}
+
+.blog-content .description {
+    background: #FFF
+}
+
+.blog-posts li div.title {
+    background: #000
+}
+
+.blog-posts li h2 {
+    color: #FFF
+}
+
+.blog-posts li:hover div.title {
+    background: #0033ff
+}
+
+.thumbnail-box div.title {
+    background: #000
+}
+
+.thumbnail-box h1 {
+    color: #FFF
+}
+
+.category {
+    background: #FFF;
+    border-top: 5px solid #0033ff
+}
+
+.category h3 {
+    color: #94979c
+}
+
+.pagination {
+    background: #0033ff
+}
+
+.pagination a {
+    color: #FFF !important
+}
+
+.sidebar1 {
+    border-top: 5px solid #0033ff;
+    background: #FFF
+}
+
+.sidebar2 .widget h3.title {
+    color: #94979c;
+    border-bottom: 5px solid #0033ff
+}
+
+.sidebar1 .widget h3.title {
+    color: #94979c;
+    border-bottom: 5px solid #d5d6d8
+}
+
+ul.featured-articles li {
+    border-bottom: 1px solid #f1f1f1
+}
+
+ul.featured-articles h3 {
+    color: #94979c
+}
+
+ul.featured-articles li a h3:hover {
+    color: #0033ff !important
+}
+
+.entry a {
+    color: #0033ff;
+    font-weight: bold
+}
+
+.entry a:hover {
+    background: #0033ff;
+    color: #FFF
+}
+
+blockquote {
+    color: #0033ff
+}
+
+.accordionButton,
+.accordionButton1,
+.accordionButton2,
+.accordionButton3 {
+    border-bottom: 1px solid #f0eee9;
+    color: #94979c
+}
+
+.accordionButton:hover,
+.accordionButton1:hover,
+.accordionButton2:hover,
+.accordionButton3:hover {
+    background: #FFF url(../image/plus.png) no-repeat right;
+    border-bottom: 1px solid #bebebd
+}
+
+.on:hover {
+    background: #FFF url(../image/minus.png) no-repeat right
+}
+
+.accordionButton.first,
+.accordionButton1.first,
+.accordionButton2.first,
+.accordionButton3.first {
+    border-top: 1px solid #f0eee9
+}
+
+.accordionContent {
+    border-bottom: 1px solid #f0eee9
+}
+
+.content-links li a {
+    background: #fafafa;
+    color: #7f8282 !important
+}
+
+.content-links li a:hover {
+    background: #0033ff;
+    color: #FFF !important
+}
+
+.jquerycssmenu ul li a.current {
+    background: #FFF;
+    color: #0033ff;
+    border-color: #0033ff
+}
+
+.jquerycssmenu ul li a {
+    color: #94979c;
+    border: 2px solid #FFF
+}
+
+.jquerycssmenu ul li a:hover {
+    color: #94979c;
+    border-color: #d5d6d8
+}
+
+.jquerycssmenu ul li ul {
+    background: #FFF
+}
+
+.jquerycssmenu ul li ul li a {
+    color: #94979c;
+    border: 0
+}
+
+.jquerycssmenu ul li ul li:hover {
+    background: #0033ff;
+    color: #FFF !important
+}
+
+.jquerycssmenu ul li ul li:hover a {
+    color: #FFF !important
+}
+
+.jquerycssmenu ul li ul li:hover ul li a {
+    color: #94979c !important
+}
+
+.jquerycssmenu ul li ul li:hover ul li a:hover {
+    color: #FFF !important
+}
+
+.comments {
+    border-top: 5px solid #0033ff;
+    background: #FFF
+}
+
+.comments h3.title {
+    color: #94979c;
+    border-bottom: 5px solid #d5d6d8
+}
+
+#commentform #contactName,
+#commentform #emaill {
+    border: 2px solid #d5d6d8;
+    color: #333
+}
+
+#commentform textarea {
+    border: 2px solid #d5d6d8;
+    color: #333
+}
+
+#commentform .sendemail {
+    background-color: #0033ff;
+    border: 1px solid #0033ff;
+    color: #FFF;
+    text-shadow: 0 -1px 0 #0033ff
+}
+
+#commentform label span {
+    color: #F00
+}
+
+#commentform span {
+    color: #F00
+}
+
+#contactform #contactName,
+#contactform #emaill,
+#contactform #subject {
+    border: 2px solid #d5d6d8;
+    color: #333
+}
+
+#contactform textarea {
+    border: 2px solid #d5d6d8;
+    color: #333
+}
+
+#contactform .sendemail {
+    background-color: #0033ff;
+    border: 1px solid #0033ff;
+    color: #FFF;
+    text-shadow: 0 -1px 0 #0033ff
+}
+
+#contactform label span {
+    color: #F00
+}
+
+#contactform span {
+    color: #F00
+}
+
+#contactform label.error {
+    color: #F00
+}
+
+.footer-content {
+    background: #FFF
+}
+
+footer h3 {
+    color: #94979c
+}
+
+footer .widget3 {
+    border-left: 1px solid #d5d6d8
+}
+
+.newsletter {
+    color: #0033ff;
+    background: #FFF;
+    border: 2px solid #0033ff
+}
+
+.newsletter-btn {
+    border: 2px solid #0033ff;
+    background: #0033ff;
+    color: #FFF
+}
+
+ul.footer-social li a {
+    color: #0033ff
+}
+
+ul.footer-social li a:hover {
+    color: #0033ff
+}
+
+ul.support-available li strong {
+    color: #0033ff
+}
+
+.text-bg {
+    background: #0033ff;
+    color: #FFF
+}
+
+#tabs_container {
+    border-bottom: 1px solid #e3e3e3
+}
+
+#tabs li a {
+    background-color: #333;
+    color: #FFF
+}
+
+#tabs li a:hover {
+    background-color: #0033ff
+}
+
+#tabs li.active a {
+    background-color: #0033ff
+}
+
+#tabs li.active a:hover {
+    background-color: #0033ff
+}
+
+#tabs_content_container {
+    background: #0033ff;
+    color: #FFF
+}
+
+.tab_content h1,
+.tab_content h2,
+.tab_content h3 {
+    color: #FFF
+}

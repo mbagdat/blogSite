@@ -1,0 +1,421 @@
+{% extends "layout.html" %}
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    {% block body %}
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+    
+        <!-- Meta Tags -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <!-- Title -->
+        <title>portfolio</title>    
+    
+      <!-- Mobile Device Meta -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <!-- Stylesheets -->
+
+      <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' type='text/css'>
+    
+      <!-- SCRIPTS + JQUERY --> <!-- The HTML5 Shim for older browsers (mostly older versions of IE). -->
+        <!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    
+      <!-- Java script (The rest of js files are placed in the footer) -->
+
+    
+    </head>
+    <body>
+    
+    
+    <!-- Begin Header -->
+
+    <!-- end #header -->
+    
+    
+    <!-- Begin Container -->
+    <section class="container">
+    
+        <div class="content-left">
+                  <ul class="filter">
+                    <li class="current all"><a href="#"><i class="icon-dashboard"></i> All Projects</a></li>
+                    <li class="photography"><a href="#"><i class="icon-camera"></i> Photography</a></li>
+                    <li class="abstract"><a href="#"><i class="icon-picture"></i> Abstract</a></li>
+                    <li class="animals"><a href="#"><i class="icon-heart-empty"></i> Animals</a></li>
+                    <li class="fashion"><a href="#"><i class="icon-umbrella"></i> Fashion</a></li>
+                    <li class="performing"><a href="#"><i class="icon-rocket"></i> Performing</a></li>
+                    <li class="healthy"><a href="#"><i class="icon-road"></i> Healthy</a></li>
+                    <li class="videos"><a href="#"><i class="icon-facetime-video"></i> Videos</a></li>
+                    <li class="architecture"><a href="#"><i class="icon-building"></i> Architecture</a></li>
+                    <li class="travel"><a href="#"><i class="icon-map-marker"></i> Travel</a></li>
+                    <li class="sports"><a href="#"><i class="icon-trophy"></i> Sports</a></li>
+                  </ul><div class="clear"></div><!-- end .filter --> 
+    
+                  <ul class="menu-pages">
+                    <li><a href="portfolio.html"><i class="icon-chevron-up"></i> Portfolio</a></li>
+                    <li><a href="contact.html"><i class="icon-envelope-alt"></i> Contact</a></li>
+                  </ul><div class="clear"></div><!-- end .menu-pages --> 
+        </div><!-- end .content-left -->
+    
+    
+    
+        <!-- Begin Content -->
+        <div class="wrap-content">
+    
+    
+          <!-- ############### -->
+          <!-- Begin Portfolio -->
+          <ul class="portfolio box-style">
+
+            <li class="item" data-id="id-1" data-type="photography abstract fashion healthy performing sports">
+              <div class="options">
+                  <a href="{% static 'demo/project-1-big.jpg'%}" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-1.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Fashion Dancing Girl</h3>
+                  <span>Photography, Abstract</span>
+                </figcaption>
+              </figure>
+            </li><!-- end #1 -->
+  
+            <!-- <li class="item" data-id="id-2" data-type="photography videos">
+              <div class="options">
+                  <a href="http://www.youtube.com/embed/gkdN36Itiv8?autoplay=1" class="titleClass myvideo" title="View Larger"><i class="icon-play"></i></a>
+                  <a href="single-project-video.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project-video.html"><img src="{% static 'demo/project-2.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Old Vintage Camera</h3>
+                  <span>Photography</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-3" data-type="photography videos travel">
+              <div class="options">
+                  <a href="http://player.vimeo.com/video/38411506?title=0&amp;portrait=0" class="titleClass myvideo" title="View Larger"><i class="icon-play"></i></a>
+                  <a href="single-project-video.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project-video.html"><img src="{% static 'demo/project-3.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Nice rainforest waterfall</h3>
+                  <span>Photography, Travel</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-4" data-type="abstract">
+              <div class="options">
+                  <a href="demo/project-4-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-4.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Happy group of fingers</h3>
+                  <span>Abstract</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-5" data-type="abstract">
+              <div class="options">
+                  <a href="demo/project-5-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-5.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Graphic Design Concept</h3>
+                  <span>Abstract</span>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="item" data-id="id-6" data-type="sports photography healthy">
+              <div class="options">
+                  <a href="demo/project-6-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-6.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Sexy Fitness Woman</h3>
+                  <span>Sports, Photography</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-7" data-type="animals abstract videos">
+              <div class="options">
+                  <a href="http://player.vimeo.com/video/38411506?title=0&amp;portrait=0" class="titleClass myvideo" title="View Larger"><i class="icon-play"></i></a>
+                  <a href="single-project-video.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project-video.html"><img src="{% static 'demo/project-7.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Black shar-pei dog</h3>
+                  <span>Animals, Abstract</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-8" data-type="architecture abstract">
+              <div class="options">
+                  <a href="demo/project-8-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-8.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Abstract Composition</h3>
+                  <span>Architecture, Abstract</span>
+                </figcaption>
+              </figure>
+            </li>        
+  
+            <li class="item" data-id="id-9" data-type="architecture videos">
+              <div class="options">
+                  <a href="http://player.vimeo.com/video/38411506?title=0&amp;portrait=0" class="titleClass myvideo" title="View Larger"><i class="icon-play"></i></a>
+                  <a href="single-project-video.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>          
+              <figure>
+                <a href="single-project-video.html"><img src="{% static 'demo/project-9.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Modern office building</h3>
+                  <span>Architecture, Videos</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-10" data-type="travel healthy">
+              <div class="options">
+                  <a href="demo/project-10-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>            
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-10.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Detail of a vintage van</h3>
+                  <span>Travel, Healthy</span>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="item" data-id="id-11" data-type="fashion abstract performing">
+              <div class="options">
+                  <a href="demo/project-11-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>          
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-11.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Beautiful Woman Face</h3>
+                  <span>Fashion, Abstract</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-12" data-type="healthy videos">
+              <div class="options">
+                  <a href="http://player.vimeo.com/video/38411506?title=0&amp;portrait=0" class="titleClass myvideo" title="View Larger"><i class="icon-play"></i></a>
+                  <a href="single-project-video.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>           
+              <figure>
+                <a href="single-project-video.html"><img src="{% static 'demo/project-12.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Photo with a delicious vegetarian pizza</h3>
+                  <span>Healthy, Videos</span>
+                </figcaption>
+              </figure>
+            </li>  
+  
+            <li class="item" data-id="id-13" data-type="performing photography">
+              <div class="options">
+                  <a href="demo/project-13-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-13.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Part of electrical guitar</h3>
+                  <span>Performing</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-14" data-type="photography animals healthy">
+              <div class="options">
+                  <a href="demo/project-14-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>          
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-14.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Big cat on a chair</h3>
+                  <span>Animals, Healthy</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-15" data-type="fashion performing photography">
+              <div class="options">
+                  <a href="demo/project-15-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>            
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-15.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Girl in Fur Hat</h3>
+                  <span>Fashion</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-16" data-type="healthy sports">
+              <div class="options">
+                  <a href="demo/project-16-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>          
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-16.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>People at the gym</h3>
+                  <span>Healthy, Sports</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-17" data-type="photography healthy">
+              <div class="options">
+                  <a href="http://player.vimeo.com/video/38411506?title=0&amp;portrait=0" class="titleClass myvideo" title="View Larger"><i class="icon-play"></i></a>
+                  <a href="single-project-video.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>           
+              <figure>
+                <a href="single-project-video.html"><img src="{% static 'demo/project-17.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Healthy Grilled Steak</h3>
+                  <span>Photography, Healthy</span>
+                </figcaption>
+              </figure>
+            </li>
+            
+            <li class="item" data-id="id-18" data-type="sports animals healthy photography travel">
+              <div class="options">
+                  <a href="demo/project-18-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-18.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Turtle underwater</h3>
+                  <span>Sports, Animals</span>
+                </figcaption>
+              </figure>
+            </li>       
+  
+            <li class="item" data-id="id-19" data-type="sports healthy photography">
+              <div class="options">
+                  <a href="demo/project-19-big.jpg" class="titleClass myproject" title="View Larger"><i class="icon-search"></i></a>
+                  <a href="single-project.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>          
+              <figure>
+                <a href="single-project.html"><img src="{% static 'demo/project-19.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Man's muscular legs</h3>
+                  <span>Sports, Healthy</span>
+                </figcaption>
+              </figure>
+            </li>
+  
+            <li class="item" data-id="id-20" data-type="sports healthy photography travel performing">
+              <div class="options">
+                  <a href="http://player.vimeo.com/video/38411506?title=0&amp;portrait=0" class="titleClass myvideo" title="View Larger"><i class="icon-play"></i></a>
+                  <a href="single-project-video.html" class="titleClass" title="More Details"><i class="icon-external-link"></i></a>
+                  <a href="#" class="titleClass" title="Share on Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" class="titleClass" title="Share on Twitter"><i class="icon-twitter"></i></a>
+              </div>            
+              <figure>
+                <a href="single-project-video.html"><img src="{% static 'demo/project-20.jpg'%}" alt="img"></a>
+                <figcaption>
+                  <h3>Colorful hot air balloon</h3>
+                  <span>Sports, Travel</span>
+                </figcaption>
+              </figure>
+            </li>
+        </ul><div class="clear"></div><br /> -->
+    
+    
+        </div><!-- end .wrap-content -->
+        <div class="clear"></div>
+    </section><!-- end .container -->
+    
+    
+    
+     
+    
+    
+    <!-- Begin Footer -->
+ 
+    <!-- end #footer -->
+    
+    
+    <!-- java script -->
+
+    
+    </body>
+    </html>
+    {% endblock body %}
+</body>
+</html>

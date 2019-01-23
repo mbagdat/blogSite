@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  <title>BlogSite</title>
+</head>
+<body>
+  {% block body %}
+  <footer> 
+        <div class="footer-content">
+    
+            <div class="widget1">
+              <h3><strong>Keep</strong> in touch with me</h3>
+              <p>Lorem Ipsum is simply dummy text of Lorem the printing and typesetting industry. Nulla ornare porttitor diam, a accumsan justo laoreet.</p>
+    
+              <form action="#" method="get" id="newsletter-form">
+               <input class="newsletter" onblur="if(this.value=='')this.value='mail@example.com';" onfocus="if(this.value=='mail@example.com')this.value='';" value="mail@example.com" type="text">
+               <input class="newsletter-btn" value="Notify me" type="submit">
+              </form>
+            </div>        
+    
+            <div class="widget2">
+              <h3><strong>My</strong> business hours</h3>
+              <ul class="support-available">
+                <li><strong>Monday-Friday:</strong> 9am to 5pm</li>
+                <li><strong>Saturday:</strong> 10am to 2pm</li>
+                <li><strong>Sunday:</strong> Closed</li>
+              </ul> 
+    
+              <p>My support is available 24 Hours a day, by e-mail or by call <span class="text-bg">+001 234 456 678</span></p> 
+            </div> 
+    
+            <div class="widget3">
+              <h3><strong>Contact</strong> info</h3>
+              <p>321 Street Name, UK, London</p>
+              <p>+001 234 456 678</p>
+              <p>info@mail.com</p>
+    
+              <ul class="footer-social">
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li><a href="#"><i class="icon-facebook-sign"></i></a></li>
+                <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                <li><a href="#"><i class="icon-pinterest"></i></a></li>
+                <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                <li><a href="#"><i class="icon-github"></i></a></li>
+              </ul><!-- end .footer-social -->            
+            </div> 
+            <div class="clear"></div>
+        </div><!-- end .footer-content -->  
+    </footer>
+  {% endblock body %}
+
+
+
+</body>
+</html>
